@@ -1,0 +1,37 @@
+
+*,*::before,*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1rem;
+    font-family: 'Karla', sans-serif;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+p,h3 {
+    font-size: 14px;
+}
+
+.p {
+    &-5{
+        padding-top: 30px;
+        padding-right: 24px;
+        padding-bottom: 25px;
+        padding-left: 24px;
+
+        @include breakpoint-up(medium){
+    
+            padding: 45px 40px 40px 40px;
+        }
+    }
+
+
+
+
+}
