@@ -157,6 +157,7 @@ p, h3 {
   border-radius: 5px;
   background-color: #c0df34;
   border: none;
+  cursor: pointer;
 }
 
 .container__item3 {
